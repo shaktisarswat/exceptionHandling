@@ -17,7 +17,7 @@ public class LocalStorage {
 
     public Map<String, String> getUsernameToPasswordMapping() throws IOException {
         // read login data from file
-        File loginDataFile = new File("src/main/resources/UnameToPass.txt");
+        File loginDataFile = new File("src/main/resources/UnameToPass1.txt");
         FileReader fileReader = new FileReader(loginDataFile);
         BufferedReader bufferedReader = new BufferedReader(fileReader);
         System.out.println("Opened resource");

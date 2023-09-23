@@ -19,8 +19,8 @@ public class NetworkStorage {
         return password;
     }
 
-    public Map<String, String> getUsernameToPasswordMapping() throws  IOException {
-        URL url = new URL("");
+    public Map<String, String> getUsernameToPasswordMapping() throws IOException {
+        URL url = new URL("https://github.com/shaktisarswat/exceptionHandling/blob/Dev/Shakti/src/main/resources/UnameToPass.txt");
 
         BufferedReader bufferedReader = null;
 
